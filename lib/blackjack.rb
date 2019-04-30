@@ -53,6 +53,7 @@ end
 #####################################################
 
 def runner
+  until display_card_total
   welcome 
   initial_round
   hit?()
